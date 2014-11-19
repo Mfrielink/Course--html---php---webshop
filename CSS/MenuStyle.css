@@ -1,9 +1,9 @@
 #menucontainer {
     width: 960px;
-    margin: 60px auto;
+    margin: 40px auto;
     border: 0px solid #222;
     background-color: #111;
-    background-image: linear-gradient(#444, #111);
+ 
     border-radius: 8px;
     box-shadow: 0 1px 1px #777;
 
@@ -59,7 +59,7 @@
     height: auto;
     width:100%;
     background: #444;   
-    background: linear-gradient(#444, #111);
+
     border-radius: 8px;
     transition: all .2s ease-in-out;
 }

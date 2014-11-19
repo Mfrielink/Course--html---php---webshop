@@ -1,5 +1,133 @@
-#headertekst a { 
-    font: bold 12px Arial, Helvetica;
-    text-transform: uppercase;
-    color: #999;
+/*---------------header_content------------------*/
+#header{
+	width:821px;
+	height:86px;
+	margin:0px;
+	padding:0px;
+	margin-left: 25%;
+	margin-right: 75%;
 }
+
+.logo{
+	margin-top: 10px;
+	position: absolute;
+	width: auto;
+	font-size:90px;
+	color: black ;
+	font-weight: bold;
+}
+
+
+form{
+	width:500px;
+	margin:0 auto;
+}
+.search { 
+	padding:6px 15px 6px 30px;
+	margin-left: 85%;
+	margin-right: 15%;
+	margin-top: 7%;
+	border-radius:15px; 
+	position: relative;
+	width: auto;
+
+}
+
+input[type=text]{
+	color:#404040;
+}
+
+.shoppingCart a{
+
+	padding: 2px;
+	width: auto;
+	font-size:15px;
+    text-decoration: none;
+	color: black ;
+	margin-top: 10%;
+	margin-left: 86%;
+}
+.shoppingCart a:hover{
+	text-decoration: underline;
+
+
+}
+/*---------------center_content------------------*/
+
+#centerContent{
+	width:821px;
+	height:auto;
+	clear:both;
+	padding:25px 0 30px 0;
+	margin-left: 25%;
+	margin-right: 75%;
+}
+
+.title_welcome{
+	font-size:25px;
+	color:#404040;
+
+}
+
+.welcome_box{
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+
+.ad {
+	margin: 5px;
+	background:#F1F6FB;
+	border:#D6DFD8 2px solid;
+	vertical-align:middle;
+	text-align:center;
+	width:500px;
+	padding:78px 68px 78px 68px;
+	color:#879F9F
+}
+
+
+.categories {
+    float:left;
+    width: 15%;
+	border: black 2px solid;
+	padding: 200px 20px 200px 20px;
+	color: #404040;
+}
+
+.items{
+	float:left;
+    width: 65%;
+	border: black 2px solid;
+	padding: 200px 20px 200px 20px;
+	color: #404040;
+}
+
+/*---------------footer_content------------------*/
+
+#footer{
+	width: 821px;
+	height: 50px;
+	clear: both;
+	margin-left: 25%;
+	margin-right: 75%;
+	padding:20px 0 0 0;
+}
+
+.footer{
+	float: center;
+	padding:20px 0 0 0;
+}
+
+#footer a{
+	width: auto;
+	font-size:15px;
+    text-decoration: none;
+	color: black ;
+	padding:0 8px 0 8px;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+;
+
