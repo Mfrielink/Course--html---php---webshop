@@ -1,15 +1,15 @@
 /*---------------header_content------------------*/
 #header{
-	width:821px;
-	height:86px;
+	width:	80%;
+	height:	10%;
 	margin:0px;
 	padding:0px;
-	margin-left: 25%;
-	margin-right: 75%;
+	margin-left: 10%;
+
 }
 
 .logo{
-	margin-top: 10px;
+	margin-top: 1%;
 	position: absolute;
 	width: auto;
 	font-size:90px;
@@ -18,17 +18,14 @@
 }
 
 
-form{
-	width:500px;
-	margin:0 auto;
-}
 .search { 
 	padding:6px 15px 6px 30px;
-	margin-left: 85%;
-	margin-right: 15%;
+	margin-right: 10%;
+	margin-left: 80%;
+
 	margin-top: 7%;
 	border-radius:15px; 
-	position: relative;
+
 	width: auto;
 
 }
@@ -44,23 +41,23 @@ input[type=text]{
 	font-size:15px;
     text-decoration: none;
 	color: black ;
-	margin-top: 10%;
-	margin-left: 86%;
+	margin-top: 11%;
+	margin-left: 91%;
+
 }
 .shoppingCart a:hover{
 	text-decoration: underline;
-
-
 }
+
 /*---------------center_content------------------*/
 
 #centerContent{
-	width:821px;
+	width: 80%;
 	height:auto;
 	clear:both;
 	padding:25px 0 30px 0;
-	margin-left: 25%;
-	margin-right: 75%;
+	margin-left: 10%;
+
 }
 
 .title_welcome{
@@ -106,11 +103,10 @@ input[type=text]{
 /*---------------footer_content------------------*/
 
 #footer{
-	width: 821px;
+	width: 80%;
 	height: 50px;
 	clear: both;
-	margin-left: 25%;
-	margin-right: 75%;
+	margin-left: 10%;
 	padding:20px 0 0 0;
 }
 
