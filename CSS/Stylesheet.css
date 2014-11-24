@@ -22,10 +22,8 @@
 	padding:6px 15px 6px 30px;
 	margin-right: 10%;
 	margin-left: 80%;
-
 	margin-top: 7%;
 	border-radius:15px; 
-
 	width: auto;
 
 }
@@ -104,7 +102,7 @@ input[type=text]{
 
 #footer{
 	width: 80%;
-	height: 50px;
+	height: 10%;
 	clear: both;
 	margin-left: 10%;
 	padding:20px 0 0 0;

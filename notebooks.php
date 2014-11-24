@@ -2,24 +2,23 @@
 <html>
 <head>
 <title>Webshop</title>
+</head>
 <link rel="stylesheet" type="text/css" href="CSS/MenuStyle.css">
 <link rel="stylesheet" type="text/css" href="CSS/Stylesheet.css">
 <body>
 
 <div id="header">
     
-    <?php            
-        include "header.php";                 // (2) Include the header
-    ?>
+    <?php require ("header.php"); ?>
 
 </div>
 
 <div id="menucontainer">
     <ul id="hmenu">
-        <li class="parent_menu"><a href="index.html">Home</a></li>
+        <li class="parent_menu"><a href="index.php">Home</a></li>
         <li class="parent_menu"><a href="#">Laptops</a>
             <ul>
-                <li class="child_menu"><a href="notebooks.html">Notebooks</a></li>
+                <li class="child_menu"><a href="notebooks.php">Notebooks</a></li>
                 <li class="child_menu"><a href="#">Ultrabooks</a></li>
                 <li class="child_menu"><a href="#">2 in 1 - devices</a></li>
                 <li class="child_menu"><a href="#">Macbooks</a></li>
@@ -36,21 +35,26 @@
         <li class="parent_menu"><a href="#">Accessoires</a></li>
         <li class="parent_menu"><a href="#">Contact Us</a></li>
     </ul>
-
 </div>
 
 <div id="centerContent">
 	
-	<div class="title_welcome">Welcome to the webshop</div>
+	<div class="title_welcome">Notebooks</div>
         <div class="welcome_box">
             <p class="welcome">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed rhoncus nulla. Vestibulum porta vulputate lacus nec ultricies. Cras tortor orci, viverra at libero eu, ultrices cursus nisi. Nulla ante nunc, viverra eu ornare ac, aliquam sit amet nunc. Nullam id risus a lectus venenatis dictum eget vel libero. Vivamus non scelerisque lorem, in imperdiet enim. Phasellus laoreet ipsum eu sapien dignissim egestas.
+                On this part of website, you'll find different types of notebooks from several brands.
 			</p> 
         </div>
 
-        <div class="ad"><b>On sale product here</b></div>
 
-        <div class="ad"><b>Popular product here</b></div>
+        <div class="categories">
+            List of categories
+        </div>
+
+        <div class="items">
+            List of items
+        </div>
+
 
 </div>
 
@@ -62,5 +66,4 @@
 </div>
 
 </body>
-</head>
 </html>

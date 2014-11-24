@@ -1,6 +1,3 @@
-<html>
-<head>
-	
     <div class="logo">Webshop</div> 
 
     <div class="searchbox">
@@ -10,6 +7,3 @@
     </div>
 
     <div class="shoppingCart"><a href="shoppingCart.html">Shopping cart</a></div>
-
-</head>
-</html?
