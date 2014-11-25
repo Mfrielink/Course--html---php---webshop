@@ -19,7 +19,17 @@
 	<div class="title_welcome">Welcome to the webshop</div>
         <div class="welcome_box">
             <p class="welcome">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed rhoncus nulla. Vestibulum porta vulputate lacus nec ultricies. Cras tortor orci, viverra at libero eu, ultrices cursus nisi. Nulla ante nunc, viverra eu ornare ac, aliquam sit amet nunc. Nullam id risus a lectus venenatis dictum eget vel libero. Vivamus non scelerisque lorem, in imperdiet enim. Phasellus laoreet ipsum eu sapien dignissim egestas.
+                <?php
+                $mysql = mysql_connect("localhost","root","") or die("Fout: Er is geen verbinding met de MySQL-server tot stand gebracht!");
+                mysql_select_db("testdb",$mysql) or die("Fout: Het openen van de database is mislukt!");
+                $resultaat = mysql_query("SELECT Brand, Type, Category, Screensize, Price, Stock FROM laptop",$mysql) or die("De query op de database is mislukt!");
+                mysql_close($mysql) or die("Het verbreken van de verbinding met de MySQL-server is mislukt!");
+
+                while(list($Brand, $Type, $Category, $Screensize, $Price, $Stock) = mysql_fetch_row($resultaat))
+                  {
+                    print(" $Brand $Type $Category $Screensize $Price $Stock<br />");
+                  }
+                  ?>
 			</p> 
         </div>
 
